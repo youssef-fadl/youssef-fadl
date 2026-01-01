@@ -8,7 +8,7 @@
   <a href="https://www.linkedin.com/in/youssef-fadl-14705a287">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-blue">
   </a>
-  <a href="https://twitter.com/YOUR_TWITTER">
+  <a href="https://x.com/youssef_fadl_">
     <img alt="Twitter" src="https://img.shields.io/twitter/follow/YOUR_TWITTER?style=social">
   </a>
   <a href="https://github.com/youssef-fadl?tab=followers">
