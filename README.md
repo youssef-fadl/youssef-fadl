@@ -27,6 +27,7 @@ youssef_fadl
 
 $echo role
 Web Application Pentester
+
 $echo mindset
 "Understand the code → Control the vulnerability"
 
