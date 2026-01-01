@@ -1,10 +1,9 @@
 <h1 align="left"> Youssef Fadl</h1>
-<h3 align="left">Web & Mobile Application Pentester</h3>
+<h3 align="left">Web Application Pentester</h3>
 
 <p align="left">
   <code>JavaScript</code> • <code>Node.js</code> • <code>React</code> • 
   <code>Python</code> • <code>C++</code> • <code>HTML</code>
-</p>
 
 <p align="left">
   <a href="https://github.com/youssef-fadl">
@@ -27,10 +26,10 @@ $ whoami
 youssef_fadl
 
 $ role
-Web & Mobile Pentester
+Web Pentester
 
 $ mindset
 "Understand the code → Control the vulnerability"
 
 $ focus
-XSS | IDOR | SQLi | SSTI | Business Logic | Mobile APIs
+Business Logic | IDOR | SQLi | SSTI | RCE | XSS
