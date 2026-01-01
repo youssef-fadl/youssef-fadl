@@ -27,16 +27,6 @@
 
 ### 🧠 whoami
 
-```bash
-$ whoami
-youssef_fadl
+<img src="https://github.com/youssef-fadl/youssef-fadl/blob/main/whoami.svg" />
 
-$echo role
-Web Application Pentester
-
-$echo mindset
-"Understand the code → Control the vulnerability"
-
-$ cat focus.txt
-Business Logic | IDOR | SQLi | SSTI | RCE | XSS
 
