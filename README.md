@@ -3,8 +3,13 @@
 <h3 align="left">Web Application Pentester</h3>
 
 <p align="left">
-  <code>JavaScript</code> • <code>Node.js</code> • <code>React</code> • 
-  <code>Python</code> • <code>C++</code> • <code>HTML</code>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" />
+</p>
 
 <p align="left">
   <a href="https://github.com/youssef-fadl">
@@ -34,3 +39,4 @@ $echo mindset
 
 $ cat focus.txt
 Business Logic | IDOR | SQLi | SSTI | RCE | XSS
+
