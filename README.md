@@ -1,4 +1,4 @@
-<h1 align="left">🧑‍💻 Youssef Fadl</h1>
+<h1 align="left"> Youssef Fadl</h1>
 <h3 align="left">Web & Mobile Application Pentester</h3>
 
 <p align="left">
