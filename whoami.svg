@@ -17,27 +17,40 @@
     .dim { fill: #ff7777; }
 
     .cursor {
+      opacity: 0;
       animation: blink 1s steps(2) infinite;
+      animation-delay: 14s;
+      animation-fill-mode: both;
     }
 
-    .line1 { animation: type 2s steps(20,end) forwards; }
-    .line2 { animation: type 2.5s steps(25,end) forwards; animation-delay:2s; }
-    .line3 { animation: type 3s steps(35,end) forwards; animation-delay:4.5s; }
-    .line4 { animation: type 3.5s steps(50,end) forwards; animation-delay:8s; }
+    /* Typing lines */
+    .l1 { animation: type 1.5s steps(15,end) forwards; }
+    .l2 { animation: type 1.8s steps(20,end) forwards; animation-delay:1.6s; }
+    .l3 { animation: type 1.8s steps(20,end) forwards; animation-delay:3.6s; }
+    .l4 { animation: type 2s steps(30,end) forwards; animation-delay:5.6s; }
+    .l5 { animation: type 2s steps(30,end) forwards; animation-delay:8s; }
+
+    /* Hidden until shown */
+    .show {
+      opacity: 0;
+      animation: show 0.8s forwards;
+    }
 
     .threat {
-      animation: threatPulse 1.2s infinite alternate;
+      opacity: 0;
+      animation: show 0.8s forwards, threatPulse 1.2s infinite alternate;
+      animation-delay: 10.5s;
     }
 
     .chain {
       opacity: 0;
       animation: show 1s forwards;
-      animation-delay: 11.5s;
+      animation-delay: 12s;
     }
 
     .glitch {
       animation: glitch 0.25s infinite;
-      animation-delay: 10s;
+      animation-delay: 9.5s;
     }
 
     @keyframes type {
@@ -45,17 +58,18 @@
       to   { clip-path: inset(0 0 0 0); }
     }
 
+    @keyframes show {
+      to { opacity:1; }
+    }
+
     @keyframes blink {
-      to { visibility: hidden; }
+      0%,50% { opacity:1; }
+      51%,100% { opacity:0; }
     }
 
     @keyframes threatPulse {
       from { fill:#7a0000; }
       to { fill:#ff0000; }
-    }
-
-    @keyframes show {
-      to { opacity:1; }
     }
 
     @keyframes glitch {
@@ -78,29 +92,28 @@
   </text>
 
   <!-- Terminal -->
-  <text x="30" y="70" class="text line1">$ whoami</text>
-  <text x="30" y="95" class="text dim line2">youssef_fadl</text>
+  <text x="30" y="70" class="text l1">$ whoami</text>
+  <text x="30" y="95" class="text dim l2">youssef_fadl</text>
 
-  <text x="30" y="130" class="text line3">$ echo role</text>
-  <text x="30" y="155" class="text dim line3">Web Application Pentester</text>
+  <text x="30" y="130" class="text l3">$ echo role</text>
+  <text x="30" y="155" class="text dim l4">Web Application Pentester</text>
 
-  <text x="30" y="190" class="text line4">$ cat focus.txt</text>
-  <text x="30" y="215" class="text dim">
-    Business Logic | IDOR | SQLi | SSTI |
-    <tspan class="glitch"> RCE </tspan> | XSS
+  <text x="30" y="190" class="text l5">$ cat focus.txt</text>
+
+  <text x="30" y="215" class="text dim show" style="animation-delay:9s">
+    Business Logic | IDOR | SQLi | SSTI | RCE | XSS
   </text>
 
   <!-- Threat Level -->
-  <text x="30" y="255" class="text">Threat Level:</text>
-  <rect x="150" y="243" width="140" height="16" fill="#2a0000"/>
+  <text x="30" y="255" class="text show" style="animation-delay:10.3s">
+    Threat Level:
+  </text>
+  <rect x="150" y="243" width="140" height="16" fill="#2a0000" class="show" style="animation-delay:10.3s"/>
   <rect x="150" y="243" width="120" height="16" class="threat"/>
 
   <!-- Attack Chain -->
-  <text x="30" y="295" class="text chain">[ Recon ] → [ Exploit ] → [ Impact ]</text>
-
-  <!-- CVE Style -->
-  <text x="30" y="330" class="text chain">
-    CVE-XXXX-1337 | Improper Access Control → Full Account Takeover
+  <text x="30" y="295" class="text chain">
+    [ Recon ] → [ Exploit ] → [ Impact ]
   </text>
 
   <!-- Cursor -->
