@@ -25,11 +25,11 @@
 $ whoami
 youssef_fadl
 
-$ role
+$echo role
 Web Pentester
 
-$ mindset
+$echo mindset
 "Understand the code → Control the vulnerability"
 
-$ focus
+$ cat focus.txt
 Business Logic | IDOR | SQLi | SSTI | RCE | XSS
