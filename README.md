@@ -22,7 +22,7 @@
   <!-- HTML5 -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" />
 <!-- Docker -->
-  <img src="https://jsdelivr.net" width="36" />
+  <img src="https://jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" />
 </p>
 
 <!-- ======= Badges for GitHub & Social Links ======= -->
