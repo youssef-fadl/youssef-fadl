@@ -49,7 +49,7 @@
 
 <!-- ======= Whoami Section ======= -->
 <h3>🧠 whoami</h3>
-<img src="https://github.com/youssef-fadl/youssef-fadl/blob/main/whoami.svg" />
+<!--<img src="https://github.com/youssef-fadl/youssef-fadl/blob/main/whoami.svg" />
 <!-- A visual SVG showing stats or personal info -->
 
 <!-- ======= License Comment ======= -->
